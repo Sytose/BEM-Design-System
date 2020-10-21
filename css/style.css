@@ -540,3 +540,126 @@
   border: blue solid 3px;
   box-shadow: 5px 5px grey;
 }
+ 
+ _______________________
+
+ Eli's CSS Code
+ 
+ /*utility*/
+body{
+ 
+  background-color:#141414
+  
+}
+
+/*===============================================
+
+Brand Component
+
+===============================================*/
+
+/* block*/
+.brand{
+  height: 200px;
+   display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: 'Verdana',sans-serif;
+  
+  
+}
+
+
+
+
+
+
+/*Elements*/
+
+.brand__title{
+  max-width: 250px;
+  height: 30px;
+  border-radius:20px;
+  padding:20px;
+  box-shadow:3px 3px 10px;
+  background-color: #666666;
+}
+
+/*modifier*/
+.brand--photo{
+  background-image: url('https://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images.jpg');
+  
+  background-size:cover;
+  background-position: center;
+  
+ 
+  
+  
+}
+/*========================================================*/
+
+
+/*block2*/
+nav{
+   max-with: 250px;
+  border-radius:20px;
+  box-shadow:3px 3px 10px;
+  padding:20px;
+  margin: 20px auto;
+  background-color: #666666;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/*========================================================*/
+
+/*================================================
+
+                Poll Component 
+
+================================================*/
+
+/*block*/
+.poll{
+  border: white 4px;
+  max-width: 250px;
+  border-radius:20px;
+  margin: 20px auto;
+  padding:20px;
+  box-shadow:3px 3px 10px;
+  background-color: #666666;
+  font-family: 'Verdana',sans-serif;
+  display :flex;
+  flex-direction: column;
+}
+
+ /*Elements*/
+  .poll__title{
+    margin-top:0;
+    color:black;
+    text-align:center;
+  }
+
+.poll__btn{
+  colors: #000000;
+  borders: black solid 2px;
+  border-radius: 10px;
+  padding: 5px 5px;
+  background-color: #B89E28;
+  margin: 10px 0;  
+}
+
+.poll__btn:hover{
+  background-color: #32746D;
+}
+
+.poll__btn:active{
+  background-color: #CD533B;
+  
+}
+
+/*========================================================*/
+
+
+ 
